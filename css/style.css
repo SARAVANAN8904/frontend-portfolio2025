@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: #fff;
+}
+.nav-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 6px 0;
+    margin-top: 1rem;
+}
+.nav-main > p{
+    font-size: 1.9rem;
+    text-indent: 2px;
+    font-weight: 800;
+    color: yellow;
+}
+.nav-main > ul > a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight:600;
+    padding-left: 2rem;
+    cursor: pointer;
+}
+.nav-main > ul > a:hover{
+    color: rgb(7, 226, 7);
+}
+@media (max-width:800px) {
+    .nav-main{
+    justify-content: space-evenly;
+    padding: 6px 0;
+    margin-top: 1rem;
+}
+.nav-main > p{
+    font-size: 1.6rem;
+    text-indent: 2px;
+    font-weight: 800;
+}
+.nav-main > ul > a{
+    font-size: 1.4rem;
+    font-weight:600;
+    padding-left: 2rem;
+}
+}
+@media (max-width:400px) {
+    .nav-main{
+    padding: 6px 0;
+    margin-top: 1rem;
+}
+.nav-main > p{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.nav-main > ul > a{
+    font-size: 1rem;
+    font-weight:400;
+}
+}
+/* ________________________________________*/
+#main-name{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+
+}
+.p-1{
+    font-size: 4rem;
+}
+.p-2{
+    font-size: 3.4rem;
+    margin-top: 15px;
+}
+.p-3{
+    font-size: 3.4rem;
+      margin-top: 10px;
+}
+.resume-btn{
+    margin-top: 5%;
+    background: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border-color: rgb(50, 47, 255);
+    font-weight: lighter;
+    font-size: 1.2rem;
+    margin-right: 2%;
+    cursor: pointer;
+}
+.photo-btn{
+    margin-top: 20px;
+    background: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 30px;
+    border-color: rgb(50, 47, 255);
+    font-weight: lighter;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.resume-btn:hover{
+    background-color: rgba(41, 9, 220, 0.532);
+}
+.photo-btn:hover{
+        background-color: rgba(41, 9, 220, 0.532);
+}
+@media (max-width:400px) {
+    #main-name{
+    align-items: center;
+    margin-top: 2rem;
+}
+.p-1{
+    font-size: 3rem;
+}
+.p-2{
+    font-size: 2.7rem;
+      margin-top: 15px;
+}
+.p-3{
+    font-size: 2.7rem;
+      margin-top: 10px;
+}
+}
