@@ -54,11 +54,11 @@ body{
     margin-top: 1rem;
 }
 .nav-main > p{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 800;
 }
 .nav-main > ul > a{
-    font-size: 15px;
+    font-size: 12px;
     font-weight:400;
 }
 }
@@ -69,9 +69,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
 
 }
+ 
 .p-1{
     font-size: 4rem;
 }
@@ -82,6 +83,12 @@ body{
 .p-3{
     font-size: 3.4rem;
       margin-top: 10px;
+      color:skyblue;
+}
+.p-4{
+     font-size: 3.4rem;
+      margin-top: 10px;
+      color: orange;
 }
 .resume-btn{
     margin-top: 5%;
@@ -115,8 +122,11 @@ body{
 @media (max-width:480px) {
     #main-name{
     width: 100%;
-    height: 50vh;
-
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(17, 248, 198); */
+    padding-right: 20px;
 }
     .p-1{
         font-size: 40px;
@@ -126,5 +136,11 @@ body{
     }
     .p-3{
         font-size: 35px;
+    }
+    .p-4{
+        font-size: 35px;
+    }
+    .resume-btn{
+        
     }
 }
