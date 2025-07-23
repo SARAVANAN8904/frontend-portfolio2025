@@ -148,7 +148,7 @@ body {
 .resume-btn:hover{
     text-decoration: underline;
 }
-@media (max-width:480px) {
+@media (max-width:380px) {
     #main-name {
     height: auto;
     width: 100%;
