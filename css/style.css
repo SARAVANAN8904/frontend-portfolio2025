@@ -131,10 +131,12 @@ body {
 }
 .resume-btn{
     font-size: 2rem;
-    font-weight: lighter;
-    background: none;
-    text-decoration: none;
-    margin-top: 3%;
+    background-color: #2596be;
+    color: #fff;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin-top: 5%;
+    border: none;
 }
 .resume-btn:hover{
     text-decoration: underline;
@@ -146,33 +148,34 @@ body {
     padding: 1.6rem;
   }
   .main-1{
-    margin-top: 10px;
+    margin-top: 5px;
   }
   .tex1 {
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .tex2 {
     font-size: 23px;
-    font-weight: 500;
+    font-weight: 800;
 }
 
 .tex3 {
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 25px;
+    font-weight: 600;
 }
 
 .tex4 {
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 00;
     color: #3498db;
+    margin-top: 1%;
 }
 .tex-clo{
     color: #e74c3c;
 }
 .tex5 {
-    font-size: 12px;
+    font-size: 18px;
     word-spacing: 2px;
     font-weight: lighter;
     margin-top: 2%;
@@ -192,11 +195,5 @@ body {
 }
 .resume-btn{
     font-size: 16px;
-    background-color: #2596be;
-    color: #fff;
-    border-radius: 8px;
-    padding: 10px 15px;
-    margin-top: 5%;
-    border: none;
 }
 }
