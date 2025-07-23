@@ -19,6 +19,9 @@ body {
     /* margin-top: 1rem; */
     /* background:#091f2c; */
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    position: sticky;
+    top: 0;
+    background-color: #1a1a1a;
 }
 
 .nav-main>p {
@@ -175,7 +178,7 @@ body {
     color: #e74c3c;
 }
 .tex5 {
-    font-size: 18px;
+    font-size: 15.5px;
     word-spacing: 2px;
     font-weight: lighter;
     margin-top: 2%;
@@ -189,11 +192,106 @@ body {
     /* margin-top: 11vh; */
     padding: 2px;
     height: 250px; width: 200px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 25px;
+    margin-bottom: 15px;
 
 }
 .resume-btn{
     font-size: 16px;
+    margin-left: 100px;
+}
+}
+/*------------------------------------------------------*/
+.sk-mi{
+    background-color:#091f2c;
+    margin-top: 2%;
+    padding: 2rem;
+    height: 100%; width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.skill-name{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.skill-intro{
+    font-size: 25px;
+    font-weight: lighter;
+}
+#skills{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 1.5%;
+}
+.fr-1{
+    height: 300px; width: 250px;
+    background-color: #091f2c;
+    border-radius: 5px;
+    border: solid 1px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    flex-direction: column;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    gap: 20px;
+    font-weight: lighter;
+
+}
+.fr-1:hover{
+    transform: translateY(-10px);
+    /* box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2); */
+    background-color: #3333334e;
+}
+.fff{
+    color: #2596be;
+    font-size: 1.5rem;
+}
+.ddd{
+    color: #2596be;
+    font-size: 1.5rem;
+}
+.uuu{
+    color: #2596be;
+    font-size: 1.5rem;
+}
+@media (max-width:480px) {
+.skill-name{
+    font-size: 25px;
+    font-weight: 700;
+}
+.skill-intro{
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 1%;
+}
+#skills{
+    gap: 15px;
+    margin-top: 2%;
+}
+.fr-1{
+    height: 240px; width: 200px;
+}
+.fr-1:hover{
+    transform: translateY(-10px);
+    background-color: #3333334e;
+}
+.fff{
+    color: #2596be;
+    font-size: 1.5rem;
+}
+.ddd{
+    color: #2596be;
+    font-size: 1.5rem;
+}
+.uuu{
+    color: #2596be;
+    font-size: 1.5rem;
 }
 }
