@@ -408,13 +408,13 @@ body {
         margin-top: 1rem;
     }
     .l-img{
-        width: 80px; height: 105px;
+        width: 70px; height: 95px;
     }
     .logo-contant {
         gap: 20px;
-        padding: 10px;
-        height: 180px;
-        width: 150px;
+        padding: 8px;
+        height: 150px;
+        width: 130px;
 
     }
 
@@ -431,6 +431,7 @@ body {
     padding: 1rem;
     gap: 10px;
     }
+    /* __________Project___________________ */
 }
 .pro-main{
         background-color: #091f2c;
@@ -448,6 +449,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    gap: 10px;
 }
 .pr-1{
     display: flex;
@@ -467,9 +469,6 @@ body {
   background-size: cover; 
   background-position: center;
   background-repeat: no-repeat;
-}
-.span-div{
-    /* margin-top: 1%; */
 }
 .span-pro{
 
@@ -505,4 +504,49 @@ body {
 .pro-link > a:hover{
     text-decoration: underline;
 }
+@media (max-width:480px) {
+.project-name{
+    font-size: 25px;
+}
+.pr-1{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border: solid 1px #587a8d;
+    padding:1rem;
+    gap: 15px;
+    width: 310px;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+.pro-img {
+  width: 280px;  
+  height: 200px;
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.span-div{
+    /* margin-top: 1%; */
+}
+.span-pro{
 
+    background: none;
+    color: #2596be;
+    font-weight: lighter;
+    border-radius: 4px;
+    border: solid #587a8d 1px;
+    padding: 4px 10px;
+    font-size: 12px;
+    text-transform: capitalize;
+    margin-right: 5px;
+}
+.prj-text{
+    font-weight: lighter;
+    font-size: 10px;
+    word-spacing: 2px;
+}
+.pro-link > a{
+    font-size: 16px;
+}
+}
