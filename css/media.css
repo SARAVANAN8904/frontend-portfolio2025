@@ -1,11 +1,294 @@
-/* <div class="main-1">
-            <p class="p-1">Hi , I'm <span style="color: yellow;">Saravanan</span></p>
-            <p class="p-2">I develop modern, User interface</p>
-            <p class="p-3">Frontend Developer,</p>
-            <p class="p-4">DataBase Developer</p>
-            <p>A skilled React and Database developer with a strong portfolio,passionate about staying updated on frontend tech.Collaborative and committed to quality, you thrive in dynamic
-                    teams. Eager to contribute creativity and bring innovative ideas to life.</p>
-            <a href="https://drive.google.com/file/d/1VRwPCIrQ1gOJmJ1XR7wAIuIyxPYGYYTv/view?usp=drive_link"><button
-                    class="resume-btn"> Check Resume</button></a> <a href="#" class="photo-btn">Check
-                    Photo ></a>
-        </div> */
+@media (max-width:800px) {
+
+        /*Navagation Bar Medis Query */
+        .nav-main {
+                justify-content: space-evenly;
+                padding: 6px 0;
+        }
+
+        .nav-main>p {
+                font-size: 1.6rem;
+                text-indent: 2px;
+                font-weight: 800;
+        }
+
+        .nav-main>ul>a {
+                font-size: 1.4rem;
+                font-weight: 600;
+                /* padding-left: 2rem; */
+                background: none;
+        }
+}
+
+@media (max-width:480px) {
+        .nav-main {
+                padding: 9px 0;
+        }
+
+        .nav-main>p {
+                font-size: 18px;
+                font-weight: 800;
+        }
+
+        .nav-main>ul>a {
+                font-size: 12px;
+                font-weight: 400;
+        }
+
+        #main-name {
+                width: 100%;
+                height: 100%;
+                flex-wrap: wrap;
+                padding: 1.6rem;
+        }
+
+        .main-1 {
+                margin-top: 5px;
+        }
+
+        .tex1 {
+                font-size: 25px;
+                font-weight: 700;
+        }
+
+        .tex2 {
+                font-size: 23px;
+                font-weight: 800;
+        }
+
+        .tex3 {
+                font-size: 25px;
+                font-weight: 600;
+        }
+
+        .tex4 {
+                font-size: 18px;
+                font-weight: 00;
+                color: #3498db;
+                margin-top: 1%;
+        }
+
+        .tex-clo {
+                color: #e74c3c;
+        }
+
+        .tex5 {
+                font-size: 15.5px;
+                word-spacing: 2px;
+                font-weight: lighter;
+                margin-top: 2%;
+                width: 100%;
+        }
+
+        .image-pht {
+                border: solid #033d5f70 2px;
+                border-radius: 5px;
+                box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+                padding: 2px;
+                height: 250px;
+                width: 200px;
+                margin-top: 25px;
+                margin-bottom: 15px;
+
+        }
+
+        .resume-btn {
+                font-size: 16px;
+                margin-left: 70px;
+        }
+
+        .skill-name {
+                font-size: 25px;
+                font-weight: 700;
+        }
+
+        .skill-intro {
+                font-size: 15px;
+                font-weight: lighter;
+                margin-top: 1%;
+        }
+
+        #skills {
+                gap: 15px;
+                margin-top: 4%;
+        }
+
+        .fr-1 {
+                height: 240px;
+                width: 200px;
+        }
+
+        .fr-1:hover {
+                transform: translateY(-10px);
+                background-color: #3333334e;
+        }
+
+        .fff {
+                color: #2596be;
+                font-size: 1.5rem;
+        }
+
+        .ddd {
+                color: #2596be;
+                font-size: 1.5rem;
+        }
+
+        .uuu {
+                color: #2596be;
+                font-size: 1.5rem;
+        }
+
+        .pl-heading {
+                font-size: 25px;
+        }
+
+        .p-lang-1 {
+                padding: 1rem;
+                gap: 10px;
+                margin-top: 1rem;
+        }
+
+        .l-img {
+                width: 70px;
+                height: 95px;
+        }
+
+        .logo-contant {
+                gap: 20px;
+                padding: 12px 0px;
+                height: 150px;
+                width: 130px;
+
+        }
+
+        .logo-text {
+                font-size: 1.3rem;
+                font-weight: lighter;
+        }
+
+        .tool-name {
+                font-size: 25px;
+        }
+
+        .tools {
+                padding: 1rem;
+                gap: 10px;
+        }
+
+        .project-name {
+                font-size: 25px;
+        }
+
+        .pr-1 {
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: column;
+                border: solid 1px #587a8d;
+                padding: 1rem;
+                gap: 15px;
+                width: 310px;
+                border-radius: 8px;
+                margin-top: 1rem;
+        }
+
+        .pro-img {
+                width: 280px;
+                height: 200px;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+        }
+
+        .span-pro {
+
+                background: none;
+                color: #2596be;
+                font-weight: lighter;
+                border-radius: 4px;
+                border: solid #587a8d 1px;
+                padding: 4px 10px;
+                font-size: 12px;
+                text-transform: capitalize;
+                margin-right: 5px;
+        }
+
+        .prj-text {
+                font-weight: lighter;
+                font-size: 10px;
+                word-spacing: 2px;
+        }
+
+        .pro-link>a {
+                font-size: 16px;
+        }
+
+        .prj-name {
+                font-size: 16px;
+        }
+
+        #contact-form {
+                justify-content: center;
+        }
+
+        .conts {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                padding: 16px;
+                margin-left: 0;
+        }
+
+        .c-n {
+                font-size: 25px;
+                font-weight: 500;
+                text-decoration: underline;
+        }
+
+        .c-name {
+                font-size: 20px;
+                font-weight: 500;
+        }
+
+        .p-r {
+                background-color: #063a59;
+                border: none;
+                outline: none;
+                padding: 8px 5px;
+                border-radius: 4px;
+                width: 200px;
+                /* height: 40px; */
+                font-size: 12px;
+                resize: none;
+        }
+
+        .contact-image {
+                display: none;
+        }
+
+        .footer {
+                flex-wrap: wrap;
+                padding: 2rem;
+                margin-top: 2%;
+                margin-bottom: 4%;
+                gap: 20px;
+        }
+
+        .fot-1 {
+                font-size: 25px;
+                font-weight: 500;
+                color: yellow;
+
+        }
+
+        .fot-2 {
+                display: flex;
+                gap: 40px;
+        }
+
+        .f-a {
+                text-decoration: none;
+                font-size: 15px;
+                color: #fff;
+        }
+}
