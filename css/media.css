@@ -85,21 +85,22 @@
                 border-radius: 5px;
                 box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
                 padding: 2px;
-                height: 250px;
-                width: 200px;
-                margin-top: 25px;
-                margin-bottom: 15px;
+                height: 200px;
+                width: 143px;
+                margin-top: 15px;
+                margin-bottom: 5px;
 
         }
 
         .resume-btn {
                 font-size: 16px;
-                margin-left: 70px;
+                /* margin-left: px; */
         }
-
+/* ------------------------------------------------------------------- */
         .skill-name {
                 font-size: 25px;
                 font-weight: 700;
+                text-decoration: underline;
         }
 
         .skill-intro {
@@ -114,29 +115,34 @@
         }
 
         .fr-1 {
-                height: 240px;
-                width: 200px;
+                height: 100px;
+                width: 90px;
+                padding: 5px;
+                gap: 10px;
+        }
+        .uuu{
+                display: none;
         }
 
         .fr-1:hover {
                 transform: translateY(-10px);
                 background-color: #3333334e;
         }
+        .f-img{
+             width: 40px;
+            height: 60px;   
+        }
 
         .fff {
                 color: #2596be;
-                font-size: 1.5rem;
+                font-size: 12px;
         }
 
         .ddd {
                 color: #2596be;
-                font-size: 1.5rem;
+                font-size: 12px;
         }
 
-        .uuu {
-                color: #2596be;
-                font-size: 1.5rem;
-        }
 
         .pl-heading {
                 font-size: 25px;
@@ -149,20 +155,20 @@
         }
 
         .l-img {
-                width: 70px;
-                height: 95px;
+                width: 40px;
+                height: 55px;
         }
 
         .logo-contant {
-                gap: 20px;
-                padding: 12px 0px;
-                height: 150px;
-                width: 130px;
+                gap: 4px;
+                padding: 5px 0px;
+                height: 80px;
+                width: 80px;
 
         }
 
         .logo-text {
-                font-size: 1.3rem;
+                font-size: 12px;
                 font-weight: lighter;
         }
 
