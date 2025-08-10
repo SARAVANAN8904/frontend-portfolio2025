@@ -115,9 +115,9 @@ body {
 /*____________________________________Skill Front and Database_____________________________________________________*/
 .sk-mi {
     background-color: #091f2c;
-    margin-top: 2%;
+    margin-top:2%;
     padding: 2rem;
-    height: 100%;
+    height:100%;
     width: 100%;
     display: flex;
     flex-direction: column;
