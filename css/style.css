@@ -105,11 +105,11 @@ body {
     border-radius: 8px;
     padding: 10px 15px;
     margin-top:5%;
-    border: none;
+    border:none;
 }
 
 .resume-btn:hover {
-    text-decoration: underline;
+    text-decoration:underline;
 }
 
 /*____________________________________Skill Front and Database_____________________________________________________*/
@@ -120,7 +120,7 @@ body {
     height:100%;
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
 }
 
 .skill-name {
