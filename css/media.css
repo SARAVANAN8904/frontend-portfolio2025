@@ -74,7 +74,7 @@
 
         .tex5 {
                 font-size: 15.5px;
-                word-spacing: 2px;
+                word-spacing:  2px;
                 font-weight: lighter;
                 margin-top: 2%;
                 width: 100%;
@@ -82,7 +82,7 @@
 
         .image-pht {
                 border: solid #033d5f70 2px;
-                border-radius: 5px;
+                border-radius:  5px;
                 box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
                 padding: 2px;
                 height: 200px;
